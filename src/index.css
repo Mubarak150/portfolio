@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(243, 228, 201); 
+}
+
+.rajdhani {
+    font-family: 'Rajdhani', sans-serif;
+}
+.button {
+    -webkit-box-shadow:0 0 1px #25262a; 
+    -moz-box-shadow: 0 0 1px #25262a; 
+    box-shadow:0 0 1px #25262a; 
+  }
+
+  .button:hover span {
+    border: white solid 8px;
+    border-bottom: 8px solid gray;
+    
+  }
+ 
+
+  .nav-items {
+    color: #ffaf29; 
+  }
+
+  .blinking-cursor {
+    display: inline-block;
+    width: 0.07em;
+    vertical-align: top;
+    height: 90px;
+    background-color: black;
+    animation: blink 1.5s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+h1 span {
+    color: transparent; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.Mubarak {
+  color:#47484b;  
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #47484b;
+}
+
+.text-after-hero {
+    animation: emerge 4s;
+}
+  
+  
+@keyframes emerge {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .text-after-hero-2 {
+    animation: appear 7s;
+}
+  
+  
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .animate {
+    opacity: 0; 
+    visibility:hidden; 
+    transform: translateY(0px); 
+    transition: transform 1s, opacity 2s; 
+  }
+  
+  .animate.appear {
+    opacity: 1; 
+    visibility:visible; 
+    transform: translateY(0px); 
+  }
+
+.my-image {
+  opacity: 0; 
+  visibility:hidden; 
+  transform: translateY(0px); 
+  transition: transform 1s, opacity 3s; 
+}
+
+.my-image.fade-up {
+  opacity: 1; 
+  visibility:visible; 
+  transform: translateY(0px); 
+}
+
+.my-circle {
+  opacity: 0; 
+  visibility: hidden; 
+  transform: rotate(-80deg); 
+  transition: transform 4s, opacity 4s; 
+  transition-delay: 800ms; 
+}
+
+.my-circle.fade-in {
+  opacity: 1; 
+  visibility:visible; 
+  transform: rotate(0deg); 
+}
+
+.projects {
+  opacity: 0; 
+  visibility:hidden; 
+  transform: translateY(20px); 
+  transition: transform 1s, opacity 3s; 
+
+}
+
+.projects.fade {
+  opacity: 1; 
+  visibility:visible; 
+  transform: translateY(0px);
+  
+}
+
+
+.mobile-nav {
+  opacity: 0; 
+  visibility:hidden; 
+  transform: translateY(20px); 
+  transition: transform 4s, opacity 2s; 
+}
+
+.mobile-nav.fade-up {
+  opacity: 1; 
+  visibility:visible; 
+  transform: translateY(0px); 
+}
