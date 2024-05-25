@@ -31,7 +31,7 @@ const projects = [
         title: 'Portfolio', 
         description: 'This website is my portfolio, admiring the Minimalist design phenorama, made in React, while using Hooks, Routes, Dynamic Routes, PDF download functionality and many more. It can be an inspiration for you to make your own portfolio design upon.', 
         imageUrl: '../src/assets/portfolio.png',
-        gitLink: 'https://github.com/Mubarak150/scarlet-frontend/'
+        gitLink: 'https://github.com/Mubarak150/portfolio/'
     },
     { 
         id: 2, 
