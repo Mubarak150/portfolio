@@ -12,7 +12,7 @@ export default function CVButton(props) {
     setIsDownloading(true); 
     // Construct the URL to the file in the public directory
     const link = document.createElement('a');
-    link.href = './public/Mubarak-CV.pdf'; // Adjust the path if your file is located in a subdirectory
+    link.href = './Mubarak-CV.pdf'; // Adjust the path if your file is located in a subdirectory
     link.download = 'Mubarak-CV.pdf'; // Specify the file name for the download
     link.click();
     
