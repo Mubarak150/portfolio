@@ -28,7 +28,7 @@ return (
     <nav ref={navbarRef} className={`animate ${navbarIsVisible ? 'appear' : ''} relative w-full flex items-center pt-3 pb-12 md:py-5 px-4 md:px-8 nav-items backdrop-blur-sm`}>
 
         {/* OWNER IMAGE CIRCULAR */}
-        <Avatar src="./src/assets/mubarak.png" divClass=" hover:scale-125 duration-200" imgClass="hover:scale-125 duration-200" />
+        <Avatar src="./mubarak.png" divClass=" hover:scale-125 duration-200" imgClass="hover:scale-125 duration-200" />
 
         {/* NAVBAR LINKS for laptop */}
         <div className="p-0 m-0 nav-container inline-block flex justify-start align-self-end w-auto flex-grow h-full ">

@@ -30,8 +30,8 @@ function Home() {
         </div>
         
         <div ref={heroRef} className="relative md:pl-0  md:col-span-2  md:mt-8 ">
-          <img src="./src/assets/mubarak.png"  alt="" className={`my-image ${heroIsVisible ? 'fade-up' : ''} h-[280px]   md:h-[410px] rounded-full`} />
-          <img src="./src/assets/c-circle.png" alt="Circle" className={`my-circle ${heroIsVisible ? 'fade-in' : ''} h-[300px]  md:h-[440px] absolute -top-1 md:-top-2 md:-left-1 z-10`} />
+          <img src="./mubarak.png"  alt="" className={`my-image ${heroIsVisible ? 'fade-up' : ''} h-[280px]   md:h-[410px] rounded-full`} />
+          <img src="./c-circle.png" alt="Circle" className={`my-circle ${heroIsVisible ? 'fade-in' : ''} h-[300px]  md:h-[440px] absolute -top-1 md:-top-2 md:-left-1 z-10`} />
         </div>
       </Container>
       

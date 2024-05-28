@@ -21,21 +21,21 @@ export default function Work (props) {
 
 const works = [
     {
-        src: "dist/assets/artisan_logo.jpeg",
+        src: "./artisan_logo.jpeg",
         companyName: "Artisan (Pvt.) Ltd. ",
         role: "Front End Intern",
         from: "Sep 2023",
         to: "Dec 2023"
     },
     {
-        src: "dist/assets/culyte_pvt_ltd_logo.jpeg",
+        src: "./culyte_pvt_ltd_logo.jpeg",
         companyName: "Culyte (Pvt.) Ltd. ",
         role: "MERN Stack Intern",
         from: "Mar 2024",
         to: "April 2024"
     },
     {
-        src: "dist/assets/culyte_pvt_ltd_logo.jpeg",
+        src: "./culyte_pvt_ltd_logo.jpeg",
         companyName: "Culyte (Pvt.) Ltd. ",
         role: "Jr. MERN Stack dev.",
         from: "Apr 2024",
