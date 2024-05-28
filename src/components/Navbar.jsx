@@ -28,14 +28,17 @@ return (
     <nav ref={navbarRef} className={`animate ${navbarIsVisible ? 'appear' : ''} relative w-full flex items-center pt-3 pb-12 md:py-5 px-4 md:px-8 nav-items backdrop-blur-sm`}>
 
         {/* OWNER IMAGE CIRCULAR */}
-        <Avatar src="./mubarak.png" divClass=" hover:scale-125 duration-200" imgClass="hover:scale-125 duration-200" />
+        <a href="/" className="">
+            <Avatar src="./mubarak.png" divClass=" hover:scale-125 duration-200" imgClass="hover:scale-125 duration-200" />
+        </a>
+        
 
         {/* NAVBAR LINKS for laptop */}
         <div className="p-0 m-0 nav-container inline-block flex justify-start align-self-end w-auto flex-grow h-full ">
             <div className="pl-12">
-                <a href="" className="hidden md:inline text-[20px] text-primary hover:scale-125 hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000 duration-200">Home</a>
-                <a href="" className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Portfolio</a>
-                <a href="" className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Contact</a>
+                <a href="/about" className="hidden md:inline text-[20px] text-primary hover:scale-125 hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000 duration-200">About</a>
+                <a href="#projects" className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Projects</a>
+                <a href='mailto:mkmubarak2347@gmail.com' className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Contact</a>
                
             
             </div> 
@@ -50,9 +53,9 @@ return (
         <div className={` ${isHidden ? 'opacity-0 transform -translate-y-10' : 'opacity-100 transform translate-y-0'}  transition-all duration-700 absolute w-full top-20 left-1 flex justify-center items-center w-screen`}>
     
 
-                <a href="" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000 ">Home</a>
-                <a href="" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Portfolio</a>
-                <a href="" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Contact</a>           
+                <a href="/about" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000 ">About</a>
+                <a href="#projects" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Projects</a>
+                <a href='mailto:mkmubarak2347@gmail.com' className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Contact</a>           
         </div>
         {/* link to my github account */}
         <div className="hidden md:inline flex  justify-center align-center mr-10 hover:scale-125 duration-200">
@@ -65,7 +68,7 @@ return (
 
         {/* contact me page link */}
         <div>
-            <a href="/contact-me" className="hidden md:inline">
+            <a href="/contact" className="hidden md:inline">
                 <GoldenButton text="Contact Me"  buttonClass="hover:scale-105" /> 
             </a>
         </div>

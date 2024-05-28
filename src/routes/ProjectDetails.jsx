@@ -14,9 +14,14 @@ const ProjectDetails = () => {
     return (
       <div className="p-4">
         <h1 className="text-2xl font-bold">{project.title}</h1>
-        <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover mt-4" />
-        <p className="mt-4 text-primary font-teachers">{project.description}</p>
-        <p className="mt-8 text-primary font-teachers">Visit the <span className="underline hover:font-semibold cursor-pointer"><a href={project.gitLink} className="">Git Hub Repository</a></span> to learn more about it.</p>
+        <div className="md:flex md:gap-7 text-justify">
+            <img src={'../public' + project.imageUrl.substring(1, project.imageUrl.length)} alt={project.title + "-landing-page"} className="w-full md:w-1/2 object-cover mt-4" />
+            <div className="md:flex md:flex-col md:justify-end ">
+                <p className="mt-4 text-primary font-teachers">{project.description}</p>
+                <p className="mt-8 text-primary font-teachers">Visit the <span className="underline hover:font-semibold cursor-pointer"><a href={project.gitLink} className="">Git Hub Repository</a></span> to learn more about it.</p>
+            </div>
+        </div>
+        
         <Footer />
       </div>
     );

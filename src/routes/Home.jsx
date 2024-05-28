@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React from 'react';
 import { useInView } from 'react-hook-inview'
 import HeroText from '../components/HeroText'
 import WorkFolder from '../components/WorkFolder'
