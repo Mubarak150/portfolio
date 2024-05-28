@@ -65,7 +65,7 @@ const projects = [
         id: 6, 
         title: 'Simon Web',
         description: 'Simon Game was a craze of people who lived in 90s. This website replicates the said once-super-hit digital game. It was made possible with the Help of Custom CSS, JQuery, and HTML. You can clone the repo and enjoy the nostalgia that hides beneath!', 
-        imageUrl: '../dist/assets/simon.png',
+        imageUrl: './simon.png',
         gitLink: 'https://github.com/Mubarak150/simon-jQuery-brahma/'
     },
   ];

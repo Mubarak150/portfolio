@@ -4,7 +4,7 @@ import { useInView } from 'react-hook-inview'
 
 const ProjectsContainer = () => {
     const [projectsRef,  projectsIsVisible ] = useInView ({
-        threshold: 0.3
+        threshold: 0.2
     });
 
     return (
