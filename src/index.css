@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: rgb(243, 228, 201); 
-}
+
 
 .rajdhani {
     font-family: 'Rajdhani', sans-serif;
@@ -157,3 +155,77 @@ h1 span {
   visibility:visible; 
   transform: translateY(0px); 
 }
+
+/* //////////////////////////////////////contact/////////////////// */
+
+.form {
+  position: relative;
+  font-family: teachers, sans-sarif; 
+
+}
+
+input:focus, textarea:focus {
+  outline-color: #47484b;
+  border-radius: 0%; 
+}
+input:focus + .label,
+textarea:focus + .label {
+  top: -10px;
+  font-size: 12px;
+  color: #47484b; 
+  background-color: white; 
+  padding: 0 6px; 
+  
+}
+
+.label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+  color:#7d7d80;  
+}
+
+input, textarea {
+  padding: 10px;
+  -webkit-box-shadow:0 0 1px #47484b; 
+  -moz-box-shadow: 0 0 5px #47484b; 
+  box-shadow:0 0 1px #47484b;
+  width: 200px;
+  color:#47484b;
+} 
+
+.media a {
+  border: 1px solid #47484b;
+  border-radius: 9999999px; 
+  width: 50px; 
+  transition: opacity 2s ease, width 0.6s ease;
+  overflow: hidden; 
+}
+
+.media a p {
+  display: none; 
+  font-size: 3px; 
+
+  white-space: nowrap;        
+  overflow: hidden;           
+  text-overflow: ellipsis;    
+}
+
+.media a:hover p {
+  display: inline; 
+  font-size: 16px; 
+}
+
+.media a:hover {
+  width: 140px;
+}
+
+.media:hover > :not(:hover) { /* if one of the children in .media is hovered other will apply this class.   */
+  opacity: 0.4; 
+}
+
+
+
+

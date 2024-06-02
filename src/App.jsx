@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'; // Ensure this path is correct
 import Home from './routes/Home';
 import ProjectDetails from './routes/ProjectDetails'; // Ensure this path is correct
 import Footer from './components/Footer'; // Ensure this path is correct
+import Contact from './routes/Contact';
+import About from './routes/About';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
             <Route path="/project/:id" element={<ProjectDetails />} />
           </Routes>
         </main>

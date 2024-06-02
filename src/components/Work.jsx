@@ -32,14 +32,22 @@ const works = [
         companyName: "Culyte (Pvt.) Ltd. ",
         role: "MERN Stack Intern",
         from: "Mar 2024",
-        to: "April 2024"
+        to: "Apr 2024"
     },
     {
         src: "./culyte_pvt_ltd_logo.jpeg",
         companyName: "Culyte (Pvt.) Ltd. ",
         role: "Jr. MERN Stack dev.",
         from: "Apr 2024",
+        to: "Jun 2024"
+    },
+    {
+        src: "./webfrat.png",
+        companyName: "WebFrat (Pvt.) Ltd. ",
+        role: "Jr. MERN Stack dev.",
+        from: "Jun 2024",
         to: "Present"
     }
+
 ]; 
 export {works};

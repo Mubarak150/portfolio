@@ -37,8 +37,8 @@ return (
         <div className="p-0 m-0 nav-container inline-block flex justify-start align-self-end w-auto flex-grow h-full ">
             <div className="pl-12">
                 <a href="/about" className="hidden md:inline text-[20px] text-primary hover:scale-125 hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000 duration-200">About</a>
-                <a href="#projects" className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Projects</a>
-                <a href='mailto:mkmubarak2347@gmail.com' className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Contact</a>
+                <a href="/#projects" className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Projects</a>
+                <a href='/contact' className="hidden md:inline text-[20px] text-primary hover:font-semibold p-1 mx-6 font-teachers transition-all duration-2000">Contact</a>
                
             
             </div> 
@@ -54,8 +54,8 @@ return (
     
 
                 <a href="/about" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000 ">About</a>
-                <a href="#projects" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Projects</a>
-                <a href='mailto:mkmubarak2347@gmail.com' className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Contact</a>           
+                <a href="/#projects" className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Projects</a>
+                <a href='/contact' className="block md:hidden px-3 border border-primary text-[14px] text-primary hover:bg-primary hover:text-white p-1 mx-1 font-teachers transition-all duration-2000">Contact</a>           
         </div>
         {/* link to my github account */}
         <div className="hidden md:inline flex  justify-center align-center mr-10 hover:scale-125 duration-200">
