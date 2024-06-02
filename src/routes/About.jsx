@@ -15,7 +15,7 @@ export default function About () {
     return (
         <div className="flex flex-col-reverse items-center justify-center md:grid md:grid-cols-5 px-4 md:px-16 pt-8 gap-8">
             <div className="col-span-3 px-2 md:px-0">
-                <h1 className="text-3xl font-bold font-teachers text-primary"><span className='hidden md:inline'>Muhammad </span> Mubarak Here...</h1>
+                <h2 className="text-3xl font-bold font-teachers text-primary"><span className='hidden md:inline'>Muhammad </span> Mubarak Here...</h2>
                 <Bio />
                 <div className="flex justify-center items-center gap-4 pt-8  py-4 pb-8 ">
                     <Media />

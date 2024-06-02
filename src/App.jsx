@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar'; // Ensure this path is correct
+import Navbar from './components/Navbar';
 import Home from './routes/Home';
-import ProjectDetails from './routes/ProjectDetails'; // Ensure this path is correct
-import Footer from './components/Footer'; // Ensure this path is correct
+import ProjectDetails from './routes/ProjectDetails'; 
+import Footer from './components/Footer'; 
 import Contact from './routes/Contact';
 import About from './routes/About';
 
