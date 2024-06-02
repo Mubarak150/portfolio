@@ -4,7 +4,7 @@ import Work, {works} from "./Work";
 export default function WorkFolder (props) {
     const [workRef,  workIsVisible ] = useInView ();
     return (
-        <div ref={workRef} className={`animate ${workIsVisible ? 'appear' : ''} w-full md:w-[32vw] flex flex-col shadow-lg md:p-4 md:m-3 md:mt-0 h-auto `}>
+        <div ref={workRef} className={`animate ${workIsVisible ? 'appear' : ''} w-full md:w-[32vw] flex flex-col shadow-lg md:p-4 md:m-3 mt-8 md:mt-0 h-auto `}>
             <div className="flex gap-4 px-4 items-center justify-center">
                 <img src="./work.svg" alt="work-svg" className="" />
                 <h2 className="font-teachers font-semibold text-gray-800 text-lg">Work</h2>

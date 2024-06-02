@@ -10,7 +10,7 @@ export default function Media () {
                         <p className="">Linked In</p>
                     </a>
 
-                    <a href='https://www.github.com/Mubarak150/' className="flex gap-2  p-3 justify-center items-center group">
+                    <a href='https://www.github.com/Mubarak150/' className="hidden md:flex gap-2  p-3 justify-center items-center group">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                             <path className='fill-primary' d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.207 11.387.599.11.793-.26.793-.577v-2.234c-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.083-.73.083-.73 1.205.084 1.838 1.237 1.838 1.237 1.07 1.832 2.809 1.303 3.495.996.108-.775.419-1.303.762-1.603-2.665-.303-5.466-1.333-5.466-5.931 0-1.31.467-2.381 1.235-3.221-.124-.303-.536-1.523.118-3.176 0 0 1.008-.322 3.301 1.23a11.486 11.486 0 013.006-.404c1.02.005 2.045.138 3.006.404 2.293-1.552 3.301-1.23 3.301-1.23.654 1.653.242 2.873.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.624-5.474 5.921.432.373.815 1.102.815 2.222v3.293c0 .322.192.694.801.576C20.565 21.796 24 17.303 24 12 24 5.373 18.627 0 12 0z"/>
                         </svg>
@@ -26,7 +26,7 @@ export default function Media () {
                         <p className="opacity-0 hidden group-hover:opacity-100 group-hover:inline">Whats App</p>
                     </a>
 
-                    <a href='https://wa.me/+923473788815/?text=Hello Mubarak! I came across your Portfolio and i would like to discuss ... ' className="hidden md:flex gap-2  p-3 justify-center items-center group">
+                    <a href='https://wa.me/+923473788815/?text=Hello Mubarak! I came across your Portfolio and i would like to discuss ... ' className="flex gap-2  p-3 justify-center items-center group">
                         <img src={gmail} alt="" className="" />
                         <p className="opacity-0 hidden group-hover:opacity-100 group-hover:inline">Gmail</p>
                     </a>

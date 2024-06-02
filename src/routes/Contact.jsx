@@ -7,7 +7,7 @@ export default function Contact() {
 
     return (
         <>
-        <div className="md:grid md:grid-cols-2 w-screen gap-6 md:gap-8 md:my-10 p-2 px-4 md:p-6">
+        <div className="md:grid md:grid-cols-2 w-screen gap-6 md:gap-8 px-4 md:p-8 p-2 box-border">
             {/* Text Section  */}
             <div className="w-full text-left flex flex-col justify-start  font-teachers text-primary py-4 md:py-0 lg:pt-8">
                 <h2 className="text-2xl font-bold text-center md:text-left">Let's Create Something Amazing Together!</h2>

@@ -4,21 +4,24 @@ import { Link } from 'react-router-dom';
 
 const Project = ({ id, title, description, imageUrl }) => {
   return (
-    <div className="relative bg-cover bg-center h-64 shadow-md" style={{ backgroundImage: `url(${imageUrl})` }}>
-      <div className="absolute inset-0 bg-primary opacity-30"></div>
-      <div className="relative z-10  h-full flex flex-col justify-end">
-      <div className="backdrop-blur-xs p-4 rounded" style={{ background: 'linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent)' }}>
-          <h4 className="text-wheat text-xl font-bold">{title}</h4>
-          <p className="text-wheat text-justify">
-            {description.length > 60 ? `${description.substring(0, 57)}...` : description}
-          </p>
-          <Link to={`/project/${id}`} className="text-white underline">
-            See details
-          </Link>
-        </div>
+    <div className="wrapper h-[400px] md:h-[300px] md:w-auto">
+      <div className="card front-face">
+          <img src={imageUrl} />
+          <div className="flex flex-col justify-center items-center h-[30%]">
+            <h3 className='text-primary font-teachers text-2xl '>{title}</h3>
+          </div>
+      </div>
+      <div className="card back-face bg-primary text-wheat text-center p-4 md:p-8 py-12">
+          <div className="info">
+              <h2 className="text-lg font-bold">{title}</h2>
+              <p className="text-justify p-4">{description.length > 150 ? `${description.substring(0, 149)} ...` : description}</p>
+              <Link to={`/project/${id}`} className=" transition-opacity duration-1000 text-white underline">
+                See details
+              </Link>
+          </div>
       </div>
     </div>
-  );
+  )
 };
 
 export default Project;
@@ -29,7 +32,7 @@ const projects = [
     { 
         id: 1,
         title: 'Portfolio', 
-        description: 'This website is my portfolio, admiring the Minimalist design phenorama, made in React, while using Hooks, Routes, Dynamic Routes, PDF download functionality and many more. It can be an inspiration for you to make your own portfolio design upon.', 
+        description: 'This website is my portfolio, admiring the Minimalist design, made in React, while using Hooks, Routes, Dynamic Routes, PDF download functionality and many more. It can be an inspiration for you to make your own portfolio design upon.', 
         imageUrl: './portfolio.png',
         gitLink: 'https://github.com/Mubarak150/portfolio/'
     },

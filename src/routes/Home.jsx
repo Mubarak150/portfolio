@@ -2,6 +2,7 @@ import React from 'react';
 import { useInView } from 'react-hook-inview'
 import HeroText from '../components/HeroText'
 import WorkFolder from '../components/WorkFolder'
+import SkillsContainer from '../components/SkillsContainer'
 import Container from '../components/Container';
 import Footer from '../components/Footer';
 import ProjectsContainer from '../components/ProjectsContainer';
@@ -37,7 +38,11 @@ function Home() {
       
       <Container containerClass="border-box flex flex-col lg:flex-row justify-center w-full lg:w-auto lg:justify-end px-4 md:px-16">
         <ProjectsContainer />
-        <WorkFolder />
+        <div className="flex flex-col">
+          <SkillsContainer />
+          <WorkFolder />
+        </div>
+        
       </Container>
       <Footer />
       
